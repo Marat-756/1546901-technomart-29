@@ -4,19 +4,22 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Техномарт</title>
-</head>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cuprum:wght@400;700&family=PT+Sans:wght@400;700&display=swap">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head> 
 
 <body>
   <header>
     <a href="">Техномарт</a>
-    <h1>Интернет-магазин<br>
-      строительных материалов <br>
-      и инструментов для ремонта
-    </h1>
     <a href="">Поиск</a>
     <a href="">Закладки: 0</a>
     <a href="">Корзина: 0</a>
     <a href="">Оформить заказ</a>
+    <h1>Интернет-магазин<br>
+      строительных материалов <br>
+      и инструментов для ремонта
+    </h1>
     <a href="tel:+7(812)555-05-55">+7(812)555-05-5</a>
     <address>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</address>
     <a href="">Войти</a>
@@ -57,17 +60,23 @@
           <img src="https://via.placeholder.com/620x266" alt="Перфораторы">
         </li>
         <li>
+          <span>Дрели</span>
+          <span>Соседям на радость!</span>
+          <a href="catalog.html">Открыть каталог</a>
+          <img src="https://via.placeholder.com/620x266" alt="Дрели">
+        </li>
+        <li>
           <p>Скидка 50%</p>
           <a href="">На 350 товаров</a>
         </li>
         <li>
           <p>Доставка</p>
-          <a href="">>Бесплатно</a>
+          <a href="">Бесплатно</a>
         </li>
       </ul>
     </section>
     <section>
-      <h2>Популярные товары</h2>
+      <h3>Популярные товары</h3>
       <a href="">все популярные товары</a>
       <ul>
         <li>
@@ -155,6 +164,11 @@
         Хороший интернет-магазин отличается от плохого не только ценами! <br>
         Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.
       </p>
+      <select name="service" multiple size="3">
+        <option selected>Доставка</option>
+        <option>Гарантия</option>
+        <option>Кредит</option>
+      </select>
       <h2>Доставка</h2>
       <p>
         Мы с удовольствием доставим ваш товар прямо <br>
@@ -162,11 +176,6 @@
         Ведь мы неплохо заработаем, <br>
         поднимая его на ваш этаж!
       </p>
-      <select name="service" multiple size="3">
-        <option selected>Доставка</option>
-        <option>Гарантия</option>
-        <option>Кредит</option>
-      </select>
     </section>
     <section>
       <h2>Компания «Техномарт»</h2>
@@ -186,10 +195,10 @@
       </ul>
       <a href="">Подробнее о компании</a>
       <h2>Контакты</h2>
-      <span>
+      <p>
         Вы можете забрать товар сами, <br>
         заехав в наш офис:
-      </span>
+      </p>
       <img src="https://via.placeholder.com/300x158" alt="">
       <p>
         <a href="">Заблудились? Напишите нам!</a>
