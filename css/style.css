@@ -1,0 +1,195 @@
+/*================= Variables =========================*/
+:root {
+    --basic-red: #EE3643;
+    --basic-extra-red: #CA2C37; 
+    --basic-other-extra-red: #BA2732;
+    --basic-black: #000000;
+    --basic-white: #ffffff;
+    --basic-gray: #A9A9A9;
+    --basic-ligth-gray: #F3F7F9;
+    --basic-extra-gray: #F1F5F7;
+    --basic-other-gray: #C5C5C5;
+    --basic-extra-blue: #32425C;
+    --basic-dark-blue: #293449;
+    --basic-other-dark-blue: #161D29;
+    --basic-other-extra-blue: #1D2739;
+    
+
+    --special-ligth-blue: #3BBCE3;
+    --special-ligth-purple: #DC91D8;
+    --special-ligth-green: #8ED78F;
+    --special-black-green: #63A63E;
+    --special-shiny-orange: #FFC047;
+    --special-orange-yellow: #FFBF47;
+    --special-ligth-orange-yellow: #FFD180;;
+}
+/*================= Global =========================*/
+body {
+    min-width: 940px;
+    margin: 0;
+    padding: 0;
+    font-family: "Cuprum", "PT Sans Narrow", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    background-position: top center;
+    background-repeat: no-repeat;
+  }
+
+a {
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .header-container {
+    width: 1200px;
+    height: 42px;
+    background-color: var(--basic-dark-blue);
+  }
+  .main-header-logo {
+    width: 220px;
+    height: 47px;
+
+    background-color: var(--basic-red);
+    text-align: center;
+    vertical-align: center;
+    text-transform: uppercase;
+  }
+  .header-inner {
+    font-style: 18px;
+    line-height: 24px;
+  }
+  .search {
+    width: 24px;
+    height: 45px;
+  }
+.search:focus {
+  background-color: var(--basic-white);
+}
+.bookmarks {
+    width: 83px;
+    height: 24px;
+}
+.bookmarks:visited{
+  background-color: var(--basic-other-dark-blue);
+}
+.basket {
+  width: 75px;
+  height: 24px;
+}
+.basket:visited{
+  background-color: var(--basic-other-dark-blue);
+}
+.ordering {
+  width: 115px;
+  height: 24px;
+  background-color: var(--special-ligth-green);
+}
+.ordering:visited {
+  background-color: var(--special-black-green);
+}
+.title {
+  font-size: 16px;
+  line-height: 23px;
+  color: var(--basic-red);
+}
+.header-contacts {
+  font-size: 21px;
+  line-height: 30px;
+  color: var(--basic-red);
+}
+.header-addres {
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--basic-extra-blue);
+}
+.header-login,
+.header-registration {
+  color: var(--basic-black);
+}
+.header-login:hover,
+.header-registration:hover {
+  color: var(--basic-red);
+}
+.header-login:visited,
+.header-registration:visited {
+  color: var(--basic-other-gray);
+}
+.main-nav {
+  width: 940px;
+  height: 60px;
+  text-align: center;
+  background-color: var(--basic-dark-blue);
+}
+.site-nav {
+  font-size: 18px;
+  line-height: 24px;
+  list-style: none;
+}
+.site-nav:hover a {
+  background-color: var(--basic-other-dark-blue);
+}
+/*=========================main=====================*/
+.category-list{
+  list-style: none;
+}
+.category-item-materials {
+  width: 300px;
+  height: 123px;
+  background-color: var(--special-orange-yellow);
+}
+.category-item-tool {
+  width: 300px;
+  height: 123px;
+  background-color: var(--special-ligth-blue);
+}
+.category-item-technic {
+  width: 300px;
+  height: 123px;
+  background-color: var(--special-ligth-purple);
+}
+.category-slider .title-one {
+  font-size: 36px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: var(--basic-white);
+}
+.category-slider .subtitle-one {
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--basic-white);
+}
+.category-slider .title-two {
+  font-size: 36px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: var(--basic-white);
+}
+.category-slider .subtitle-two {
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--basic-white);
+}
+.category-slider a {
+  color: var(--basic-white);
+  background-color: var(--basic-red);
+}
+.category-slider a:hover {
+  background-color: var(--basic-extra-red);
+}
+.category-slider a:visited {
+  background-color: var(--basic-other-extra-red);
+}
+.category-item-discount {
+  width: 300px;
+  height: 123px;
+  background-color: var(--special-black-green);
+}
+.category-item-delivery {
+  width: 300px;
+  height: 123px;
+  background-color: var(--special-orange-yellow);
+}
