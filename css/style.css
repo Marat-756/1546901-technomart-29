@@ -62,6 +62,7 @@ img {
     vertical-align: center;
     text-transform: uppercase;
 }
+
 .header-inner {
     font-style: 18px;
     line-height: 24px;
@@ -224,7 +225,7 @@ img {
 /*================popular-product======================*/
 
 .popular-product h3 {
-  font-family: "Cuprum" "Arail" sans-serif;
+  font-family: "Cuprum", "Arail", sans-serif;
   font-size: 30px;
   line-height: 30px;
   width: 264px;
@@ -234,7 +235,7 @@ img {
 }
 
 .popular-product-item {
-  font-family: "Cuprum" "Arail" sans-serif;
+  font-family: "Cuprum", "Arail", sans-serif;
   font-size: 14px;
   line-height: 18px;
   text-transform: uppercase;
@@ -312,7 +313,7 @@ img {
 }
 
 .service-title p {
-  font-family: "PT Sans" "Ariral" sans-serif;
+  font-family: "PT Sans", "Ariral", sans-serif;
   font-size: 13px;
   line-height: 24px;
   width: 394px;
@@ -347,7 +348,7 @@ img {
 }
 
 .service-delivery p {
-  font-family: "PT Sans" "Ariral" sans-serif;
+  font-family: "PT Sans", "Ariral", sans-serif;
   font-size: 13px;
   line-height: 24px;
   color: var(--basic-black);
@@ -425,7 +426,7 @@ img {
   background-color: var(--basic-dark-blue);
 }
 
-.social li {
+.social {
   list-style: none;
 }
 
@@ -433,3 +434,4 @@ img {
 .site-address {
   color: var(--special-ligth-orange-yellow);
 }
+
