@@ -1,4 +1,5 @@
 /*================= Variables =========================*/
+
 :root {
     --basic-red: #EE3643;
     --basic-extra-red: #CA2C37; 
@@ -23,173 +24,412 @@
     --special-orange-yellow: #FFBF47;
     --special-ligth-orange-yellow: #FFD180;;
 }
+
 /*================= Global =========================*/
+
 body {
     min-width: 940px;
     margin: 0;
     padding: 0;
-    font-family: "Cuprum", "PT Sans Narrow", Arial, sans-serif;
+    font-family: "Cuprum", "Arial", sans-serif;
     font-size: 14px;
     line-height: 24px;
     font-weight: 700;
     background-position: top center;
     background-repeat: no-repeat;
-  }
+}
 
 a {
     text-decoration: none;
 }
+
 img {
     max-width: 100%;
     height: auto;
-  }
+}
 
-  .header-container {
+.header-container {
     width: 1200px;
     height: 42px;
     background-color: var(--basic-dark-blue);
-  }
-  .main-header-logo {
+}
+
+.main-header-logo {
     width: 220px;
     height: 47px;
-
     background-color: var(--basic-red);
     text-align: center;
     vertical-align: center;
     text-transform: uppercase;
-  }
-  .header-inner {
+}
+.header-inner {
     font-style: 18px;
     line-height: 24px;
-  }
+}
+
   .search {
     width: 24px;
     height: 45px;
-  }
+}
+
 .search:focus {
   background-color: var(--basic-white);
 }
+
 .bookmarks {
     width: 83px;
     height: 24px;
 }
+
 .bookmarks:visited{
   background-color: var(--basic-other-dark-blue);
 }
-.basket {
+
+.cart {
   width: 75px;
   height: 24px;
 }
+
 .basket:visited{
   background-color: var(--basic-other-dark-blue);
 }
+
 .ordering {
   width: 115px;
   height: 24px;
   background-color: var(--special-ligth-green);
 }
+
 .ordering:visited {
   background-color: var(--special-black-green);
 }
+
 .title {
   font-size: 16px;
   line-height: 23px;
   color: var(--basic-red);
 }
+
 .header-contacts {
   font-size: 21px;
   line-height: 30px;
   color: var(--basic-red);
 }
+
 .header-addres {
   font-size: 14px;
   line-height: 24px;
   color: var(--basic-extra-blue);
 }
+
 .header-login,
 .header-registration {
   color: var(--basic-black);
 }
+
 .header-login:hover,
 .header-registration:hover {
   color: var(--basic-red);
 }
+
 .header-login:visited,
 .header-registration:visited {
   color: var(--basic-other-gray);
 }
+
 .main-nav {
   width: 940px;
   height: 60px;
   text-align: center;
   background-color: var(--basic-dark-blue);
 }
+
 .site-nav {
   font-size: 18px;
   line-height: 24px;
   list-style: none;
 }
+
 .site-nav:hover a {
   background-color: var(--basic-other-dark-blue);
 }
+
 /*=========================main=====================*/
-.category-list{
+
+.category-list {
   list-style: none;
 }
+
 .category-item-materials {
   width: 300px;
   height: 123px;
   background-color: var(--special-orange-yellow);
 }
+
 .category-item-tool {
   width: 300px;
   height: 123px;
   background-color: var(--special-ligth-blue);
 }
+
 .category-item-technic {
   width: 300px;
   height: 123px;
   background-color: var(--special-ligth-purple);
 }
-.category-slider .title-one {
+
+.category-slider .title {
   font-size: 36px;
   line-height: 36px;
   text-transform: uppercase;
   color: var(--basic-white);
 }
-.category-slider .subtitle-one {
+
+.category-slider .subtitle {
   font-size: 18px;
   line-height: 24px;
   color: var(--basic-white);
 }
-.category-slider .title-two {
-  font-size: 36px;
-  line-height: 36px;
-  text-transform: uppercase;
-  color: var(--basic-white);
-}
-.category-slider .subtitle-two {
-  font-size: 18px;
-  line-height: 24px;
-  color: var(--basic-white);
-}
+
 .category-slider a {
+  width: 192px;
+  height: 38px;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
   color: var(--basic-white);
   background-color: var(--basic-red);
 }
+
 .category-slider a:hover {
   background-color: var(--basic-extra-red);
 }
+
 .category-slider a:visited {
   background-color: var(--basic-other-extra-red);
 }
+
 .category-item-discount {
   width: 300px;
   height: 123px;
   background-color: var(--special-black-green);
 }
+
 .category-item-delivery {
   width: 300px;
   height: 123px;
   background-color: var(--special-orange-yellow);
+}
+
+/*================popular-product======================*/
+
+.popular-product h3 {
+  font-family: "Cuprum" "Arail" sans-serif;
+  font-size: 30px;
+  line-height: 30px;
+  width: 264px;
+  height: 30px;
+  text-transform: uppercase;
+  color: var(--basic-extra-blue);
+}
+
+.popular-product-item {
+  font-family: "Cuprum" "Arail" sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: var(--basic-white);
+  background-color: var(--basic-red);
+}
+
+.product-item {
+  font-family: "PT Sans";
+  width: 220px;
+  height: 318px;
+  list-style: none;
+}
+
+.product-item .perforator {
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 20px;
+  color: var(--basic-black);
+}
+
+.product-item s {
+  font-size: 17px;
+  line-height: 18px; 
+  text-transform: uppercase;
+  color: var(--basic-gray);
+}
+
+.price {
+  font-size: 17px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: var(--basic-white);
+  background-color: var(--basic-red);
+}
+
+/*==========popular-manufacturers=====================*/
+
+.popular-manufacturers h2 {
+  font-size: 30px;
+  line-height: 30px;
+  width: 264px;
+  height: 30px;
+  text-transform: uppercase;
+  color: var(--basic-extra-blue);
+}
+
+.popular-manufacturers-item {
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: var(--basic-white);
+  background-color: var(--basic-red);
+}
+
+.manufacturers-item {
+  width: 220px;
+  height: 145px;
+  list-style: none;
+}
+
+/*================service===========================*/
+
+.service {
+  width: 1200px;
+  height: 522px;
+  background-color: var(--basic-extra-gray);
+}
+
+.service-title {
+  font-size: 30px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: var(--basic-black);
+}
+
+.service-title p {
+  font-family: "PT Sans" "Ariral" sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+  width: 394px;
+  height: 49px;
+  color: var(--basic-black);
+}
+
+.service-items {
+  font-size: 21px;
+  line-height: 30px;
+  width: 79px;
+  height: 183px;
+  color: var(--basic-extra-blue);
+  background-color: var(--basic-white);
+}
+
+.service-items option {
+  width: 240px;
+  height: 61px;
+}
+
+.service-items option:hover {
+  color: var(--basic-white);
+  background-color: var(--basic-dark-blue);
+}
+
+.service-delivery {
+  font-size: 30px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: var(--basic-extra-blue);
+}
+
+.service-delivery p {
+  font-family: "PT Sans" "Ariral" sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+  color: var(--basic-black);
+}
+
+/*=====================info===============================*/
+
+.info {
+  font-size: 30px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: var(--basic-black);
+}
+
+.info p {
+  font-size: 13px;
+  line-height: 24px;
+  color: var(--basic-white);
+}
+
+.info-company {
+  width: 140px;
+  height: 18px;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: var(--basic-white);
+  background-color: var(--basic-red);
+}
+
+.email {
+  width: 300px;
+  height: 38px;
+  color: var(--basic-white);
+  background-color: var(--basic-red);
+}
+
+/*=================footer=============================*/
+
+.footer-contacts {
+  background-color: var(--basic-extra-blue);
+}
+
+.main-footer-title {
+  width: 220px;
+  height: 68px;
+  text-transform: uppercase;
+  color: var(--basic-white);
+  background-color: var(--basic-red);
+}
+
+.main-footer p {
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--basic-ligth-gray);
+}
+
+.footer-navigation ul {
+  font-size: 18px;
+  line-height: 24px;
+  list-style: none;
+}
+
+.footer-nav a {
+  color: var(--basic-extra-gray);
+}
+
+.footer-product a {
+  color: var(--special-ligth-orange-yellow);
+}
+
+.communication {
+  font-size: 16px;
+  line-height: 18px;
+  background-color: var(--basic-dark-blue);
+}
+
+.social li {
+  list-style: none;
+}
+
+.mail 
+.site-address {
+  color: var(--special-ligth-orange-yellow);
 }
