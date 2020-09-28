@@ -35,7 +35,6 @@ body {
     font-size: 14px;
     line-height: 24px;
     font-weight: 700;
-    background-position: top center;
     background-repeat: no-repeat;
 }
 
@@ -48,8 +47,20 @@ img {
     height: auto;
 }
 
+/*====================== Grid ============================*/
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: min-content 1fr min-content;
+  align-content: start;
+}
+
 .header-container {
-    width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
     height: 42px;
     background-color: var(--basic-dark-blue);
 }
@@ -68,7 +79,7 @@ img {
     line-height: 24px;
 }
 
-  .search {
+.search {
     width: 24px;
     height: 45px;
 }
@@ -105,10 +116,18 @@ img {
   background-color: var(--special-black-green);
 }
 
+.main-header-container {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(3, auto);
+  margin-top: 88px;
+}
+
 .title {
   font-size: 16px;
   line-height: 23px;
   color: var(--basic-red);
+  padding: 0px 73px 44,5px 30px;
 }
 
 .header-contacts {
@@ -117,7 +136,7 @@ img {
   color: var(--basic-red);
 }
 
-.header-addres {
+.header-address {
   font-size: 14px;
   line-height: 24px;
   color: var(--basic-extra-blue);
@@ -146,9 +165,13 @@ img {
 }
 
 .site-nav {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-row: 1fr;
   font-size: 18px;
   line-height: 24px;
   list-style: none;
+  margin: 0;
 }
 
 .site-nav:hover a {
@@ -158,6 +181,13 @@ img {
 /*=========================main=====================*/
 
 .category-list {
+  min-width: 940px;
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  grid-template-rows: 123px 123px 123px;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 
@@ -177,6 +207,11 @@ img {
   width: 300px;
   height: 123px;
   background-color: var(--special-ligth-purple);
+}
+
+.category-slider {
+  grid-column: 1 / 3;
+  grid-row: 2 / 3;
 }
 
 .category-slider .title {
@@ -211,18 +246,26 @@ img {
 }
 
 .category-item-discount {
+  grid-column: 3 / 4;
   width: 300px;
   height: 123px;
   background-color: var(--special-black-green);
 }
 
 .category-item-delivery {
+  grid-column: 3 / 4;
   width: 300px;
   height: 123px;
   background-color: var(--special-orange-yellow);
 }
 
 /*================popular-product======================*/
+
+.product-list {
+  display: grid;
+  grid-template-columns: 220px 220px 220px 220px;
+  gap: 20px;
+}
 
 .popular-product h3 {
   font-family: "Cuprum", "Arail", sans-serif;
@@ -274,6 +317,12 @@ img {
 
 /*==========popular-manufacturers=====================*/
 
+.popular-manufacturers-list {
+  display: grid;
+  grid-template-columns: 220px 220px 220px 220px;
+  gap: 20px;
+}
+
 .popular-manufacturers h2 {
   font-size: 30px;
   line-height: 30px;
@@ -300,7 +349,6 @@ img {
 /*================service===========================*/
 
 .service {
-  width: 1200px;
   height: 522px;
   background-color: var(--basic-extra-gray);
 }
@@ -357,6 +405,8 @@ img {
 /*=====================info===============================*/
 
 .info {
+  display: grid;
+  grid-template-columns: auto auto;
   font-size: 30px;
   line-height: 30px;
   text-transform: uppercase;
@@ -388,8 +438,13 @@ img {
 
 /*=================footer=============================*/
 
-.footer-contacts {
+.footer-up {
   background-color: var(--basic-extra-blue);
+}
+
+.left-footer-up {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
 }
 
 .main-footer-title {
@@ -400,9 +455,13 @@ img {
   background-color: var(--basic-red);
 }
 
-.main-footer p {
+.footer-contacts {
   font-size: 18px;
   line-height: 24px;
+  color: var(--basic-ligth-gray);
+}
+
+.footer-contacts a {
   color: var(--basic-ligth-gray);
 }
 
@@ -421,17 +480,25 @@ img {
 }
 
 .communication {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   font-size: 16px;
   line-height: 18px;
   background-color: var(--basic-dark-blue);
 }
 
-.social {
+.copyright {
+  color: var(--basic-white);
+}
+
+.social-list {
   list-style: none;
 }
 
-.mail 
-.site-address {
-  color: var(--special-ligth-orange-yellow);
+.feedback p {
+  color: var(--basic-white);
 }
 
+.feedback a {
+  color: var(--special-ligth-orange-yellow);
+}
