@@ -138,7 +138,7 @@ img {
   margin-top: 88px;
 }
 
-.title {
+.main-header-container h1 {
   font-style: italic;
   font-size: 16px;
   line-height: 23px;
@@ -296,7 +296,7 @@ img {
 }
 
 .popular-product h3 {
-  font-family: "Cuprum", "Arail", sans-serif;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-size: 30px;
   line-height: 30px;
   width: 264px;
@@ -306,7 +306,7 @@ img {
 }
 
 .popular-product-item {
-  font-family: "Cuprum", "Arail", sans-serif;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-weight: bold;
   font-size: 14px;
   line-height: 18px;
@@ -314,9 +314,9 @@ img {
   color: var(--basic-white);
   background-color: var(--basic-red);
 }
-s
+
 .product-item {
-  font-family: "PT Sans", "Arail", sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-weight: bold;
   width: 220px;
   height: 318px;
@@ -359,7 +359,7 @@ s
 }
 
 .popular-manufacturers h2 {
-  font-family: "Cuprum", "Arail", sans-serif;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-weight: normal;
   font-size: 30px;
   line-height: 30px;
@@ -391,7 +391,7 @@ s
 }
 
 .service-title {
-  font-family: "Cuprum", "Arail", sans-serif;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-weight: normal;
   font-size: 30px;
   line-height: 30px;
@@ -400,7 +400,7 @@ s
 }
 
 .service-title p {
-  font-family: "PT Sans", "Ariral", sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-weight: normal;
   font-size: 13px;
   line-height: 24px;
@@ -429,7 +429,7 @@ s
 }
 
 .service-delivery {
-  font-family: "Cuprum", "Arail", sans-serif;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-weight: normal;
   font-size: 30px;
   line-height: 30px;
@@ -438,7 +438,7 @@ s
 }
 
 .service-delivery p {
-  font-family: "PT Sans", "Ariral", sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-weight: normal;
   font-size: 13px;
   line-height: 24px;
@@ -457,14 +457,14 @@ s
 }
 
 .info-item-company h2 {
-  font-family: "Cuprum", "Arail", sans-serif;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-weight: normal;
   font-size: 30px;
   line-height: 30px;
 }
 
 .info-item-company p {
-  font-family: "PT Sans", "Ariral", sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-weight: normal;
   font-size: 13px;
   line-height: 24px;
@@ -472,7 +472,7 @@ s
 }
 
 .info-item-company ul {
-  font-family: "Cuprum", "Arail", sans-serif;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-weight: normal;
 }
 
@@ -494,7 +494,7 @@ s
 }
 
 .info-item-contacts h2 {
-  font-family: "Cuprum", "Arail", sans-serif;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-weight: normal;
   font-size: 30px;
   line-height: 30px;
@@ -502,7 +502,7 @@ s
 }
 
 .info-item-contacts p {
-  font-family: "PT Sans", "Ariral", sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-weight: normal;
   font-size: 13px;
   line-height: 24px;
@@ -515,7 +515,7 @@ s
 }
 
 .footer-up {
-  font-family: "Cuprum", "Arail", sans-serif;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-weight: normal;
   max-width: 940px;
   margin: 0 auto;
@@ -567,7 +567,7 @@ s
 }
 
 .communication {
-  font-family: "Cuprum", "Arail", sans-serif;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-weight: normal;
   max-width: 940px;
   margin: 0 auto;
